@@ -2,8 +2,8 @@
 //  UIButton+Chained.m
 //  LDChained
 //
-//  Created by Daredos on 16/7/5.
-//  Copyright © 2016年 LiangDahong. All rights reserved.
+//  Created by liangdahong on 16/7/5.
+//  Copyright © 2016年 https://liangdahong.com All rights reserved.
 //
 
 #import "UIButton+Chained.h"
@@ -34,7 +34,6 @@ kImplementViewObject(UIButton, UIFont, font);
 }
 
 - (UIButton *(^)(UIColor *, UIControlState))ld_titleColor {
-    
     return ^UIButton * (UIColor *titleColor, UIControlState state) {
         [self setTitleColor:titleColor forState:state];
         return self;
@@ -42,7 +41,6 @@ kImplementViewObject(UIButton, UIFont, font);
 }
 
 - (UIButton *(^)(UIColor *, UIControlState))ld_titleShadowColor {
-    
     return ^UIButton * (UIColor *titleShadowColor, UIControlState state) {
         [self setTitleShadowColor:titleShadowColor forState:state];
         return self;
@@ -50,7 +48,6 @@ kImplementViewObject(UIButton, UIFont, font);
 }
 
 - (UIButton *(^)(UIImage *, UIControlState))ld_image {
-
     return ^UIButton * (UIImage *image, UIControlState state) {
         [self setImage:image forState:state];
         return self;
@@ -58,7 +55,6 @@ kImplementViewObject(UIButton, UIFont, font);
 }
 
 - (UIButton *(^)(UIImage *, UIControlState))ld_backgroundImage {
-    
     return ^UIButton * (UIImage *backgroundImage, UIControlState state) {
         [self setBackgroundImage:backgroundImage forState:state];
         return self;
@@ -66,7 +62,6 @@ kImplementViewObject(UIButton, UIFont, font);
 }
 
 - (UIButton *(^)(NSAttributedString *, UIControlState))ld_attributedTitle {
-    
     return ^UIButton * (NSAttributedString *attributedTitle, UIControlState state) {
         [self setAttributedTitle:attributedTitle forState:state];
         return self;

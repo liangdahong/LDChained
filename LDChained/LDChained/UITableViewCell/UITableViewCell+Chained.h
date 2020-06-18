@@ -2,8 +2,8 @@
 //  UITableViewCell+Chained.h
 //  LDChained
 //
-//  Created by Daredos on 16/7/6.
-//  Copyright © 2016年 LiangDahong. All rights reserved.
+//  Created by liangdahong on 16/7/6.
+//  Copyright © 2016年 https://liangdahong.com All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
