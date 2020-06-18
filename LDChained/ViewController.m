@@ -20,7 +20,7 @@
 #if 0
     
     label.text = @"123";
-    label.textAlignment = 1;
+    label.textAlignment = NSTextAlignmentCenter;
     label.textColor = [UIColor orangeColor];
     label.font = [UIFont systemFontOfSize:15];
     label.frame = CGRectMake(100, 100, 100, 20);
@@ -29,14 +29,14 @@
 #else
     // 这样是可以的.
     label.ld_text(@"123")
-    .ld_textAlignment(1)
+    .ld_textAlignment(NSTextAlignmentCenter)
     .ld_textColor([UIColor orangeColor])
     .ld_font([UIFont systemFontOfSize:15])
     .ld_frame(CGRectMake(100, 100, 100, 20))
     .ld_backgroundColor([UIColor grayColor]);
     
     
-    label.ld_text(@"123").ld_textAlignment(1).ld_textColor([UIColor orangeColor]).ld_font([UIFont systemFontOfSize:15]).ld_frame(CGRectMake(100, 100, 100, 20)).ld_backgroundColor([UIColor grayColor]);
+    label.ld_text(@"123").ld_textAlignment(NSTextAlignmentCenter).ld_textColor([UIColor orangeColor]).ld_font([UIFont systemFontOfSize:15]).ld_frame(CGRectMake(100, 100, 100, 20)).ld_backgroundColor([UIColor grayColor]);
     
 #endif
 

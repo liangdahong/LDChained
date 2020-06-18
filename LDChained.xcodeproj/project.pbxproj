@@ -45,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05999E32249B589000D9621F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05999E33249B589100D9621F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63564D721D2AA7DC00AA756C /* LDChained.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDChained.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63564D761D2AA7DC00AA756C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63564D781D2AA7DC00AA756C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +115,8 @@
 		63564D691D2AA7DC00AA756C = {
 			isa = PBXGroup;
 			children = (
+				05999E32249B589000D9621F /* LICENSE */,
+				05999E33249B589100D9621F /* README.md */,
 				EDE942181D30F45E0022D4C1 /* UIKit.framework */,
 				63564D741D2AA7DC00AA756C /* LDChained */,
 				63564D8E1D2AA7DD00AA756C /* LDChainedTests */,
@@ -364,6 +368,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
